@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.heading-section {
+    width: 1032px;
+    padding: 0 100px;
+    height: 550px;
+    background-color: #65c3e7;
+    color: #fff;
+    overflow: hidden;
+}
+
+.website-header {
+    width: 1032px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.website-logo {
+    text-align: center;
+    background-color: white;
+    font-size: 65px;
+    color: #65c3e7;
+    box-shadow: 10px 10px #00b7ff;
+    cursor: pointer;
+    padding: 0 40px 25px 40px;
+}
+
+.ham-burger-icon {
+    align-self: center;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.ham-burger-icon span {
+    border-radius: 5px;
+    width: 40px;
+    height: 5px;
+    background-color: white;
+}
+
+.heading-container {
+    float: right;
+    width: 800px;
+    padding-top: 70px;
+    text-align: right;
+    line-height: 60px;
+    font-size: 30px;
+
+}
+
+.features-section-title,
+.explore-section-title {
+    font-weight: normal;
+    color: rgb(103, 102, 102);
+    font-size: 40px;
+    line-height: 35px;
+}
+
+.explore-section-description {
+    color: rgb(103, 102, 102);
+}
+
+.features-section-description-bordered,
+.features-section-description,
+.explore-section-description,
+.explore-section-description-gray {
+    line-height: 25px;
+}
+
+
+
+.heading-container-title {
+    color: white;
+    font-weight: normal;
+}
+
+
+.heading-container-description-span {
+    font-weight: bolder;
+}
+
+
+
+.download-button,
+.mail-button,
+.dribble-button {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.dribble-button-icon {
+    width: 17px;
+    height: 17px;
+    padding-left: 5px;
+}
+
+.download-button-icon,
+.mail-button-icon,
+.contribute-button-icon {
+    width: 17px;
+    height: 15px;
+    padding-left: 5px;
+}
+
+
+.download-button {
+    border: 2px solid white;
+    background-color: #65c3e7;
+    color: white;
+    margin-top: 50px;
+    padding: 15px 20px;
+}
+
+.download-button:hover {
+    color: #65c3e7;
+    background-color: white;
+}
+
+.heading-section-ipad-mini {
+    padding-top: 20px;
+    height: 350px;
+    width: 200px;
+    float: left;
+}
+
+.features {
+    width: 1082px;
+    height: 450px;
+    color: #979797;
+    overflow: hidden;
+    background-color: #e3e3e3;
+    padding: 150px 0 0 150px;
+}
+
+.explore {
+    width: 1132px;
+    height: 550px;
+    color: #979797;
+    background-color: white;
+    padding: 100px 100px 0 0;
+    overflow: hidden;
+}
+
+.features-section,
+.explore-section {
+    float: left;
+    width: 500px;
+}
+
+.features-section-description-bordered {
+    border-left: 10px solid rgb(49, 169, 255);
+    padding-left: 10px;
+}
+
+.mail-button {
+    margin-top: 50px;
+    padding: 15px 20px;
+    border: 2px solid black;
+    background-color: #e3e3e3;
+}
+
+.mail-button:hover {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+.dribble-button {
+    margin-top: 50px;
+    padding: 15px 20px;
+    border: 2px solid gray;
+    background-color: white;
+    color: gray;
+}
+
+.dribble-button:hover {
+    background-color: gray;
+    color: white;
+
+}
+
+.content-padding {
+    padding-bottom: 35px;
+}
+
+.features-ipad-flat {
+    float: right;
+    height: 500px;
+}
+
+
+
+.explore-images {
+    float: left;
+    position: relative;
+    width: 600px;
+    height: 550px;
+
+}
+
+.explore-imac {
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    z-index: 1;
+    bottom: 0px;
+    left: 100px;
+
+}
+
+
+.explore-macbook-retina {
+    position: absolute;
+    z-index: 2;
+    bottom: -50px;
+    left: -50px;
+}
+
+.explore-macbook-ipad {
+    position: absolute;
+    z-index: 2;
+    bottom: -50px;
+    right: 50px;
+}
+
+.explore-macbook-ipad-mini {
+    position: absolute;
+    z-index: 2;
+    bottom: -20px;
+    right: -100px;
+}
+
+.explore-iphone5 {
+    position: absolute;
+    z-index: 3;
+    bottom: -40px;
+    right: 0px;
+}
+
+
+
+.contribute {
+    padding: 80px 0 80px 0;
+    background-color: #44cba2;
+    width: 1232px;
+    text-align: center;
+}
+
+.contribute-title {
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.contribute-button {
+    margin-top: 30px;
+    padding: 15px 20px;
+    border: 2px solid white;
+    background-color: #44cba2;
+    color: white;
+    font-size: 22px;
+}
+
+.contribute-button:hover {
+    background-color: white;
+    color: #44cba2;
+}
+
+
+
+.social-media-container {
+    width: 1232px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3e3e3;
+    gap: 50px;
+
+}
+
+.social-media-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.social-media-list-items {
+    list-style: none;
+}
+
+.social-media-list-items-image {
+    border-radius: 26px;
+}
+
+.social-media-list-items-image:hover {
+    background-color: #979797;
+    cursor: pointer;
+}
+
+
+.email-label {
+    float: left;
+    padding-top: 20px;
+    padding-right: 15px;
+    color: rgb(103, 102, 102);
+
+
+}
+
+.email-container {
+    float: left;
+    height: 30px;
+    padding: 15px 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.email-input {
+    float: left;
+    height: 25px;
+    border: 0;
+    border-right: 2px solid #e3e3e3;
+
+    outline: none;
+    cursor: pointer;
+    color: #c0c0c0;
+
+}
+
+.email-input::placeholder {
+    color: #e3e3e3;
+}
+
+
+.email-submit-button {
+    float: left;
+    height: 25px;
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.email-button-icon {
+    height: 15px;
+    width: 20px;
+    padding-left: 25px;
+}
+
+.email-container:focus-within {
+    border: 1px solid #c0c0c0;
+    cursor: pointer;
+}
+
+.footer {
+    width: 1232px;
+
+    text-align: center;
+    padding: 50px 0;
+    color: rgb(103, 102, 102);
+}
+
+.footer-author {
+    color: #65c3e7;
+}
